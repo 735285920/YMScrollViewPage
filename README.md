@@ -1,1 +1,1 @@
-# YMScrollerViewPage
+# YMScrollViewPage
