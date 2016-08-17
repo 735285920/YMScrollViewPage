@@ -25,7 +25,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    images = @[@"4.png",
+    images = @[@"4.jpg",
                @"7.png",
                @"6.png",
                @"8.png"];
