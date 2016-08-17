@@ -15,10 +15,10 @@
 		F430BC4E1D4F2A2A00B48D8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F430BC4C1D4F2A2A00B48D8F /* LaunchScreen.storyboard */; };
 		F430BC591D4F2A2B00B48D8F /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F430BC581D4F2A2B00B48D8F /* _________Tests.m */; };
 		F430BC641D4F2A2B00B48D8F /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F430BC631D4F2A2B00B48D8F /* _________UITests.m */; };
-		F471A7D41D51D18800607FE3 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F471A7D01D51D18800607FE3 /* 4.jpg */; };
-		F471A7D51D51D18800607FE3 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F471A7D11D51D18800607FE3 /* 6.jpg */; };
+		F471A7D41D51D18800607FE3 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = F471A7D01D51D18800607FE3 /* 4.png */; };
+		F471A7D51D51D18800607FE3 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = F471A7D11D51D18800607FE3 /* 6.png */; };
 		F471A7D61D51D18800607FE3 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = F471A7D21D51D18800607FE3 /* 7.png */; };
-		F471A7D71D51D18800607FE3 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F471A7D31D51D18800607FE3 /* 8.jpg */; };
+		F471A7D71D51D18800607FE3 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = F471A7D31D51D18800607FE3 /* 8.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +55,10 @@
 		F430BC5F1D4F2A2B00B48D8F /* 两张图片的图片轮播UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "两张图片的图片轮播UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F430BC631D4F2A2B00B48D8F /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
 		F430BC651D4F2A2B00B48D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F471A7D01D51D18800607FE3 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
-		F471A7D11D51D18800607FE3 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		F471A7D01D51D18800607FE3 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		F471A7D11D51D18800607FE3 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		F471A7D21D51D18800607FE3 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
-		F471A7D31D51D18800607FE3 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		F471A7D31D51D18800607FE3 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,10 +124,10 @@
 		F430BC3E1D4F2A2A00B48D8F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F471A7D01D51D18800607FE3 /* 4.jpg */,
-				F471A7D11D51D18800607FE3 /* 6.jpg */,
+				F471A7D01D51D18800607FE3 /* 4.png */,
+				F471A7D11D51D18800607FE3 /* 6.png */,
 				F471A7D21D51D18800607FE3 /* 7.png */,
-				F471A7D31D51D18800607FE3 /* 8.jpg */,
+				F471A7D31D51D18800607FE3 /* 8.png */,
 				F430BC4F1D4F2A2A00B48D8F /* Info.plist */,
 				F430BC3F1D4F2A2A00B48D8F /* main.m */,
 			);
@@ -257,13 +257,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F471A7D41D51D18800607FE3 /* 4.jpg in Resources */,
+				F471A7D41D51D18800607FE3 /* 4.png in Resources */,
 				F430BC4E1D4F2A2A00B48D8F /* LaunchScreen.storyboard in Resources */,
 				F430BC4B1D4F2A2A00B48D8F /* Assets.xcassets in Resources */,
 				F471A7D61D51D18800607FE3 /* 7.png in Resources */,
 				F430BC491D4F2A2A00B48D8F /* Main.storyboard in Resources */,
-				F471A7D51D51D18800607FE3 /* 6.jpg in Resources */,
-				F471A7D71D51D18800607FE3 /* 8.jpg in Resources */,
+				F471A7D51D51D18800607FE3 /* 6.png in Resources */,
+				F471A7D71D51D18800607FE3 /* 8.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

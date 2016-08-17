@@ -25,10 +25,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    images = @[@"4.jpg",
+    images = @[@"4.png",
                @"7.png",
-               @"6.jpg",
-               @"8.jpg"];
+               @"6.png",
+               @"8.png"];
     
     scroll_view                                = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0,[UIScreen mainScreen].bounds.size.width , [UIScreen mainScreen].bounds.size.height)];
     scroll_view.delegate                       = self;
@@ -52,7 +52,6 @@
 }
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
-    
     //因为是通过判断当前的位置，来设置下一个imageview的位置及图片，所以要判断当前的位置，在第一张图片和最后一张图片时，滑动不进行计算，避免数组越界
     if (scrollView.contentOffset.x / [UIScreen mainScreen].bounds.size.width < images.count - 1 &&
         scrollView.contentOffset.x / [UIScreen mainScreen].bounds.size.width > 0){
@@ -73,7 +72,6 @@
             if (ImagesTag == 1) {
                 return;
             }
-            
         }
         //向右滑动
         else{
